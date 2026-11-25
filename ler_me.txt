@@ -1,0 +1,18 @@
+projeto 01 - classificacao
+
+dados:
+- cdc diabetes (openml 46841), usei amostra de 8000
+- pumpkin seeds (kaggle / koklu), baixei pelo openml
+
+como rodar:
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requisitos.txt
+python baixar_dados.py
+python explorar_dados.py
+python svm_modelo.py
+python logistica.py
+python knn_modelo.py
+python comparacao.py
+
+figuras/ e resultados/ saem depois de rodar
